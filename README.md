@@ -65,7 +65,7 @@ Now, close the notebook and open the `anime-recommendation-system` folder.
    Place them in their respective folders as described.
 
 3. Run `recommendation_features.ipynb`.  
-   The `os.chdir()` command is used inside the notebook to navigate to the project folder.  
+   The `os.chdir(proj_path)` command is used inside the notebook to navigate to the project folder.  
    You only need to **change the folder path according to your Google Drive** location of the project.
 
 All dependencies will be installed automatically using `!pip install` inside the notebook.
