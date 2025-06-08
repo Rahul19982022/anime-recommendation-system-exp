@@ -57,17 +57,17 @@ Below are the key recommendation strategies implemented in this project:
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-   Now we will clone the repo using following command in a cell.  
-   You only need to **change the folder path according to your Google Drive** and where you want to save the project folder.  
+   Now we will clone the repository using following command in a cell.  
+   You need to **change the save path according to your Google Drive** i.e. where you will save the project.  
  
 ```python
 import os  
-proj_path = '/content/drive/MyDrive/'
-os.chdir(proj_path)
-!git clone https://github.com/Rahul19982022/anime-recommendation-system-exp
+save_path = '/content/drive/MyDrive/'
+os.chdir(save_path)
+!git clone https://github.com/Rahul19982022/anime-recommendation-system-exp.git
 ```
 
-Now, close the notebook and open the `anime-recommendation-system` folder.
+This will create `anime_recommendation_system` folder. Close the notebook and open that folder.
 
 2. Follow the instructions in the next section i.e. 'Required Data & Models' section to download the required datasets and model files.  
    Place them in their respective folders as described.
