@@ -107,7 +107,7 @@ A `requirements.txt` is also provided for running the project locally with the s
 
 ## 📓 How to Use
 
-1. Run `recommendation_features.ipynb` in Google Colab, it is recommended to run the entire notebook first  
+1. Run `recommendation_features.ipynb` in Google Colab, it is recommended to run the entire notebook first, which will take about 9-10 minutes.
 2. Then you can experiment with a recommendation method by calling its function 
 3. I have included one example under every recommendation method so you can refer to it
 4. Get anime recommendations 🎉
