@@ -51,12 +51,18 @@ Below are the key recommendation strategies implemented in this project:
 
 ### 🟢 For Google Colab (Recommended)
 
-1. First, create an empty folder named `anime-recommendation-system` in your Google Drive.  
-   Now open a Colab notebook and run the following in a cell, you only need to **change the folder path according to your Google Drive** location of the project.  
+1. First, open a Colab notebook and mount the drive using following command in a cell.
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+   Now we will clone the repo using following command in a cell.  
+   You only need to **change the folder path according to your Google Drive** and where you want to save the project folder.  
  
 ```python
 import os  
-proj_path = '/content/drive/MyDrive/anime-recommendation-system'
+proj_path = '/content/drive/MyDrive/'
 os.chdir(proj_path)
 !git clone https://github.com/Rahul19982022/anime-recommendation-system-exp
 ```
