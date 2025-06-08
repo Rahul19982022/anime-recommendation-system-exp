@@ -55,7 +55,7 @@ Below are the key recommendation strategies implemented in this project:
    Now open a Colab notebook and run the following in a cell, you only need to **change the folder path according to your Google Drive** location of the project.
 
    import os  
-   proj_path = '/content/drive/MyDrive/anime-recommendation-system'
+   proj_path = '/content/drive/MyDrive/anime-recommendation-system'  
    os.chdir(proj_path)  
    !git clone https://github.com/Rahul19982022/anime-recommendation-system-exp  
 
